@@ -1,0 +1,35 @@
+参考：
+https://seisman.github.io/how-to-write-makefile/overview.html
+
+问题：
+1. 如何将不同种类的文件份文件夹存放，并且让make能正确找到生成执行文件
+2. 如何将中间文件/可执行文件生成到指定文件夹下
+
+----------------------------------------------
+1.基本结构
+    >一般
+    target ... : prerequisites ...
+        command
+        ...
+        ...
+    >静态模式？？
+    <targets ...> : <target-pattern> : <prereq-patterns ...>
+    <commands>
+    ...
+2.makefile变量
+
+  >自动化变量
+
+3.makefile自动推演和隐晦规则
+
+4.makefile文件指示
+
+5.makefile的通配符
+
+6.常用关键字
+
+7.makefile搜索路径设置
+
+
+8.makefile自动生成依赖
+
